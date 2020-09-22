@@ -1,4 +1,9 @@
-.icon li{
+body div:first-child{
+    margin-left: 25%;
+    margin-right: 25%; 
+  }
+
+  nav ul:first-child li{
     display: inline-block;
      float: right;
      padding: 2px;
@@ -67,23 +72,18 @@ ul{
     margin-top: 3%;
 }
 #list{
-    background-image: url('img/list-bg.png');
-    background-repeat: no-repeat;
-    min-height: 300px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-.ullist{
     display: inline-block;
-    text-align: center;
-    list-style: none;
-    margin-left: 15%;
- margin-top: 10%;
- list-style-position: inside;
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d9/master/class-10/lab-a/lab-assets/list-bg.png);
+    width: 50%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25%;
+    box-shadow: 5px 5px 3px gray;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.ullist li {
-    text-align: left;
-}
+
 #hprofile{
     display: inline-block;
 }
@@ -153,3 +153,11 @@ hr:after {
 #rsss{
     margin-left: 20px;
 }
+
+#listL {display: inline-block;
+    margin-left: 5%;
+    margin-top: 20px;}
+
+#listR {display: inline-block;
+        margin-left: 52%;
+        margin-top: -120px;}
