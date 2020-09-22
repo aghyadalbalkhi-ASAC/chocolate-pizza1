@@ -84,9 +84,6 @@ ul{
     margin-top: 50px;
 }
 
-#hprofile{
-    display: inline-block;
-}
 
 #van{
     float:left;
@@ -160,4 +157,9 @@ hr:after {
 
 #listR {display: inline-block;
         margin-left: 52%;
-        margin-top: -120px;}
+        margin-top: -120px;
+    }
+
+    input:checked+label{
+        text-decoration: line-through;
+      }
